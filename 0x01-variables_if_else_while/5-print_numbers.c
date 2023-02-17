@@ -8,12 +8,13 @@ int main(void)
 {
 	int x = 0;
 
-	while (x < 10)
+	while (x <= 9)
 	{
-		putchar(x);
-		x++;
+		printf("%d", x);
+		x += 1;
 	}
 	putchar(10);
+
 	return (0);
 }
 
