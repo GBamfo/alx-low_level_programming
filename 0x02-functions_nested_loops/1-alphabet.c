@@ -13,6 +13,7 @@ int main(void)
 		_putchar(x);
 		x += 1;
 	}
+
 	_putchar(10);
 	return (0);
 }
