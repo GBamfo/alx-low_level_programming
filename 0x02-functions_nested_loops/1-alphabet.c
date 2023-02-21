@@ -1,10 +1,12 @@
 #include "main.h"
 /**
- * main - entry point
- * Return: 0 (Success)
+ * print_alphabet -Entry point
+ * Description: a function that prints the alphabet,
+ * in lowercase followed by a new line
+ * Return: void
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char x = 'a';
 
@@ -14,6 +16,4 @@ int main(void)
 		x++;
 	}
 	_putchar(0);
-
-	return (0);
 }
