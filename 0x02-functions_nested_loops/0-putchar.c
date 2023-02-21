@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - prints _putchar on a new line
+ * main -entry point
  * Return: 0 (Success)
  */
 
@@ -17,5 +17,4 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
-
 }
